@@ -1,4 +1,4 @@
-export { scoreFrame, scoreSpareFrame }
+export { scoreFrame, scoreSpareFrame, scoreStrikeFrame }
 
 // const frames = [
 //   [2, 0],
@@ -18,4 +18,19 @@ function scoreSpareFrame(frame1, frame2) {
   let totalSpareFrame = 0
   if (scoreFrame(frame1) === 10)
     return (totalSpareFrame = scoreFrame(frame1) + frame2[0])
+}
+
+function scoreStrikeFrame(frame1, frame2) {
+  // check if frame1 === 10
+  // let totalStrikeFrame = 0
+  // add frame2 bowls together
+  // add frame1 to frame2
+  // return as totalstrikeframe
+
+  // for some reason test passes when we add the console log. WHY????
+  let totalStrikeFrame = 0
+  if (scoreFrame(frame1[0]) === 10) console.log(scoreFrame(frame1[0]) === 10)
+  return (totalStrikeFrame += frame1[0] + scoreFrame(frame2))
+
+  // console.log(totalStrikeFrame)
 }
