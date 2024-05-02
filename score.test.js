@@ -12,3 +12,13 @@ test('scores a gutterball frame', () => {
 
   expect(actual).toBe(expected)
 })
+//originally used the var "num" but to make this work we wil use numbers as suggested in the read me
+test('scores a normal frame', () => {
+  //arrange
+  const frame = [3, 2]
+  //action
+  const expected = 5
+  //assert
+  const actual = score.scoreFrame(frame)
+  expect(actual).toBe(expected)
+})
