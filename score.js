@@ -1,4 +1,4 @@
-export { scoreFrame, scoreSpareFrame, scoreStrikeFrame }
+export { scoreFrame, scoreSpareFrame, scoreStrikeFrame, scoreDoubleStrikeFrame}
 
 // const frames = [
 //   [2, 0],
@@ -33,4 +33,8 @@ function scoreStrikeFrame(frame1, frame2) {
   return (totalStrikeFrame += frame1[0] + scoreFrame(frame2))
 
   // console.log(totalStrikeFrame)
+}
+
+function scoreDoubleStrikeFrame(frame1, frame2,... ){
+  // Ran out of time to finish :(
 }
