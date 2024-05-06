@@ -35,6 +35,6 @@ function scoreStrikeFrame(frame1, frame2) {
   // console.log(totalStrikeFrame)
 }
 
-function scoreDoubleStrikeFrame(frame1, frame2,... ){
+// function scoreDoubleStrikeFrame(frame1, frame2,... ){
   // Ran out of time to finish :(
-}
+// }
